@@ -39,4 +39,5 @@
   <li>Figma untuk mendesign UI/UX</li>
 </ul>
 <h5>Link Website : <a href="https://kodekuini.xyz/sikar/" target="_blank">Klik disini</a></h5>
-<p>Dummy Account : [username: superuser][password: superuser]</p>
+<p>Dummy Account : <br>
+  [username: superuser]<br>[password: superuser]</p>

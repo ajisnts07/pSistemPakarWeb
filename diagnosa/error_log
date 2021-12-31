@@ -1,0 +1,44 @@
+[31-Dec-2021 18:13:03 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 113
+[31-Dec-2021 18:13:03 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 113
+[31-Dec-2021 18:13:03 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 118
+[31-Dec-2021 18:13:03 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 118
+[31-Dec-2021 18:13:03 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 123
+[31-Dec-2021 18:13:03 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 123
+[31-Dec-2021 18:13:03 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 128
+[31-Dec-2021 18:13:03 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 128
+[31-Dec-2021 19:15:25 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 113
+[31-Dec-2021 19:15:25 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 113
+[31-Dec-2021 19:15:25 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 118
+[31-Dec-2021 19:15:25 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 118
+[31-Dec-2021 19:15:25 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 123
+[31-Dec-2021 19:15:25 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 123
+[31-Dec-2021 19:15:25 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 128
+[31-Dec-2021 19:15:25 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 128
+[31-Dec-2021 19:17:01 Asia/Jakarta] PHP Notice:  Undefined index: id_user in /home/kodekuin/public_html/sikar/diagnosa/diagnosa.php on line 10
+[31-Dec-2021 19:17:01 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/diagnosa.php on line 102
+[31-Dec-2021 19:17:07 Asia/Jakarta] PHP Notice:  Undefined index: id_user in /home/kodekuin/public_html/sikar/diagnosa/diagnosa.php on line 10
+[31-Dec-2021 19:17:07 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/diagnosa.php on line 102
+[31-Dec-2021 19:24:07 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 113
+[31-Dec-2021 19:24:07 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 113
+[31-Dec-2021 19:24:07 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 118
+[31-Dec-2021 19:24:07 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 118
+[31-Dec-2021 19:24:07 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 123
+[31-Dec-2021 19:24:07 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 123
+[31-Dec-2021 19:24:07 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 128
+[31-Dec-2021 19:24:07 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 128
+[31-Dec-2021 19:24:16 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 113
+[31-Dec-2021 19:24:16 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 113
+[31-Dec-2021 19:24:16 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 118
+[31-Dec-2021 19:24:16 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 118
+[31-Dec-2021 19:24:16 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 123
+[31-Dec-2021 19:24:16 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 123
+[31-Dec-2021 19:24:16 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 128
+[31-Dec-2021 19:24:16 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 128
+[31-Dec-2021 19:24:50 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 113
+[31-Dec-2021 19:24:50 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 113
+[31-Dec-2021 19:24:50 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 118
+[31-Dec-2021 19:24:50 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 118
+[31-Dec-2021 19:24:50 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 123
+[31-Dec-2021 19:24:50 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 123
+[31-Dec-2021 19:24:50 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 128
+[31-Dec-2021 19:24:50 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/diagnosa/hasil_diagnosa.php on line 128

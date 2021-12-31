@@ -1,0 +1,4 @@
+[31-Dec-2021 22:17:21 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/kodekuin/public_html/sikar/index.php on line 214
+[31-Dec-2021 22:17:21 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/index.php on line 215
+[31-Dec-2021 22:17:25 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/kodekuin/public_html/sikar/index.php on line 214
+[31-Dec-2021 22:17:25 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/kodekuin/public_html/sikar/index.php on line 215

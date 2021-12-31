@@ -1,0 +1,517 @@
+// SCSS Variable Declarations
+$primary-color: #0e63f3;
+$secondary-color: #ff765a;
+$bg-primary: #ffffff;
+$bg-secondary: #f7f9fe;
+$text-primary: #1d2b4f;
+$text-secondary: #65708a;
+
+// Font Style
+@font-face {
+  font-family: 'Nunito';
+  src: url('../font/Nunito-Regular.ttf');
+}
+
+// Mixin Style
+@mixin img-responsive($height: auto) {
+  max-width: 100%;
+  height: $height;
+}
+@mixin d-flex($justify: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: center;
+}
+@mixin col-sm-5() {
+  .col-sm-5 {
+    @include d-flex();
+    min-height: 100vh;
+    a {
+      color: $secondary-color;
+    }
+  }
+}
+@mixin bg() {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='629' height='203' preserveAspectRatio='none' viewBox='0 0 629 203'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='629' height='203' x='0' y='0' fill='rgba(14%2c 99%2c 243%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c125.355C23.745%2c122.41%2c45.497%2c114.656%2c67.169%2c104.516C92.005%2c92.896%2c124.394%2c86.952%2c135.584%2c61.919C146.777%2c36.878%2c122.872%2c9.905%2c121.709%2c-17.499C120.355%2c-49.4%2c148.915%2c-86.789%2c128.24%2c-111.121C107.634%2c-135.372%2c66.19%2c-112.78%2c35.076%2c-119.458C7.287%2c-125.422%2c-15.299%2c-151.902%2c-43.448%2c-147.971C-72.413%2c-143.926%2c-95.735%2c-121.612%2c-113.859%2c-98.659C-131.478%2c-76.345%2c-144.989%2c-49.108%2c-143.944%2c-20.696C-142.96%2c6.057%2c-119.488%2c25.138%2c-108.411%2c49.51C-97.306%2c73.942%2c-100.794%2c107.237%2c-78.804%2c122.621C-56.822%2c138%2c-26.623%2c128.657%2c0%2c125.355' fill='%230c5ee9'%3e%3c/path%3e%3cpath d='M629 374.036C661.581 378.327 697.499 369.55600000000004 721.879 347.522 745.376 326.286 745.551 290.73 754.719 260.414 762.577 234.429 771.7139999999999 209.617 771.792 182.47 771.88 151.728 770.607 120.251 755.197 93.65 738.054 64.05799999999999 712.321 39.602000000000004 681.03 25.801999999999992 647.288 10.920999999999992 608.527 2.4029999999999916 573.343 13.450999999999993 538.374 24.431999999999988 514.498 55.43299999999999 492.738 84.928 472.31399999999996 112.612 454.446 143.255 452.253 177.588 450.142 210.646 462.48699999999997 243.094 480.876 270.646 497.572 295.66200000000003 525.954 307.754 550.616 324.968 576.415 342.976 597.807 369.928 629 374.036' fill='%231a6bf4'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='629' height='203' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// CSS Reset
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito';
+  background-color: $bg-primary;
+  color: $text-primary;
+  a {
+    text-decoration: none;
+    color: $text-primary;
+    &:hover {
+      color: $text-primary;
+    }
+  }
+  .btn,
+  input,
+  button {
+    &:hover,
+    &:active,
+    &:focus {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+  p {
+    color: $text-secondary;
+    margin-bottom: 0;
+  }
+}
+
+// Global Style
+.btn {
+  border: none;
+}
+.btn-primary {
+  background-color: $primary-color;
+  color: $bg-secondary;
+  &:hover,
+  &:focus {
+    background-color: $primary-color;
+    color: $bg-secondary;
+  }
+}
+.btn-secondary {
+  background-color: $bg-secondary;
+  color: $primary-color;
+  &:hover,
+  &:focus {
+    background-color: $bg-secondary;
+    color: $primary-color;
+  }
+}
+.icon {
+  padding: 0.5em;
+  background-color: $bg-secondary;
+  border-radius: 0.5em;
+  color: $primary-color;
+}
+.col-bg {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='629' height='700' preserveAspectRatio='none' viewBox='0 0 629 700'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1024%26quot%3b)' fill='none'%3e%3crect width='629' height='700' x='0' y='0' fill='rgba(14%2c 99%2c 243%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c268.82C51.564%2c274.034%2c100.082%2c250.786%2c146.939%2c228.641C199.841%2c203.639%2c259.874%2c182.697%2c289.273%2c132.106C319.483%2c80.117%2c312.979%2c15.741%2c305.31%2c-43.897C297.549%2c-104.254%2c285.692%2c-167.047%2c244.989%2c-212.285C204.586%2c-257.19%2c143.077%2c-272.9%2c84.838%2c-288.933C27.475%2c-304.725%2c-34.842%2c-328.158%2c-89.359%2c-304.329C-142.93%2c-280.913%2c-164.623%2c-218.412%2c-193.196%2c-167.405C-216.639%2c-125.555%2c-224.891%2c-79.943%2c-240.468%2c-34.574C-260.307%2c23.208%2c-323.438%2c80.554%2c-297.286%2c135.766C-271.014%2c191.231%2c-185.025%2c175.669%2c-129.008%2c200.74C-83.71%2c221.014%2c-49.376%2c263.828%2c0%2c268.82' fill='%230c5ee9'%3e%3c/path%3e%3cpath d='M629 994.5419999999999C682.962 989.674 713.528 931.1469999999999 762.027 906.994 819.138 878.552 901.822 893.7760000000001 937.519 840.896 972.629 788.887 954.351 714.845 931.0830000000001 656.567 910.239 604.359 849.126 583.3199999999999 816.425 537.595 778.691 484.832 784.979 396.695 725.968 369.758 668.31 343.439 604.482 391.985 544.923 413.661 489.175 433.95 421.91700000000003 442.742 389.288 492.288 357.073 541.205 391.446 606.76 379.93600000000004 664.19 367.412 726.678 297.119 781.688 319.312 841.4300000000001 341.152 900.22 423.379 904.6759999999999 479.599 932.472 528.94 956.867 574.181 999.4870000000001 629 994.5419999999999' fill='%231a6bf4'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1024'%3e%3crect width='629' height='700' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include d-flex();
+  min-height: 100vh;
+  color: $bg-secondary;
+  p {
+    color: $bg-secondary;
+  }
+}
+.badge {
+  background-color: $secondary-color;
+  position: absolute;
+}
+.sidebar {
+  height: 100%;
+  width: 15em;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  .navbar-brand {
+    color: $primary-color;
+    img {
+      width: 2em;
+      height: 2em;
+      border-radius: 0.5em;
+    }
+  }
+  p {
+    margin-bottom: 0.5em;
+    color: $text-primary;
+  }
+  a {
+    padding-left: 0.7em;
+    display: block;
+    margin-top: 1em;
+    &:hover {
+      background-color: $bg-secondary;
+      border-radius: 0.5em;
+    }
+  }
+  .active {
+    background-color: $bg-secondary;
+    border-radius: 0.5em;
+  }
+}
+main {
+  margin-left: 15em;
+  padding-bottom: 6em;
+  .navbar {
+    .navbar-text {
+      color: $text-primary;
+    }
+    .btn {
+      border-radius: 1em;
+      &:hover {
+        width: 7em;
+      }
+    }
+    .photo-profile {
+      img {
+        width: 2.2em;
+        height: 2.2em;
+        background-color: $primary-color;
+        border-radius: 100%;
+      }
+    }
+    .dropdown-menu {
+      margin-left: -7em;
+    }
+  }
+}
+.slick-slide {
+  margin: 0.5em;
+}
+.navigations {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 1em 1em 0 0;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $bg-primary;
+  .icon-nav {
+    color: $text-secondary;
+  }
+  .icon-home {
+    background-color: $primary-color;
+    columns: $bg-secondary;
+    margin-top: -3.5em;
+    border-radius: 100%;
+  }
+}
+table {
+  thead {
+    background-color: $primary-color;
+    color: $bg-primary;
+  }
+  tbody {
+    th {
+      font-weight: 100;
+    }
+  }
+}
+.data-detail {
+  min-height: 100vh;
+  background-color: $bg-secondary;
+}
+.data {
+  border-radius: 1em;
+  overflow-x: auto;
+}
+
+// Home Style
+.home {
+  min-height: 100vh;
+  background-color: $bg-secondary;
+  .navbar {
+    .navbar-text {
+      color: $primary-color;
+    }
+  }
+  .col-sm-6 {
+    img {
+      @include img-responsive();
+      z-index: -3;
+    }
+  }
+  .banner {
+    background-color: $text-primary;
+    color: $bg-secondary;
+    margin-top: -7%;
+    border-radius: 1em;
+  }
+}
+
+// About Style
+.about {
+  .col-sm-6 {
+    img {
+      @include img-responsive();
+    }
+  }
+}
+
+// Try Style
+.try {
+  .box {
+    color: $bg-secondary;
+    border-radius: 1em;
+    @include bg();
+  }
+}
+
+// Footer Style
+.footer {
+  background-color: $bg-secondary;
+  .maps {
+    @include img-responsive();
+    border-radius: 1em;
+  }
+  .social-media {
+    color: $text-secondary;
+  }
+}
+
+// Panduan Style
+.panduan {
+  .line {
+    border-left: 0.2em dashed $text-primary;
+    .badge {
+      left: 0;
+      margin-left: 2.8em;
+    }
+  }
+}
+
+// Signin Style
+.signin {
+  @include col-sm-5();
+}
+
+// Signup Style
+.signup {
+  @include col-sm-5();
+  .line {
+    border-top: 0.2em dashed $text-primary;
+    .badge {
+      margin-top: -1em;
+    }
+  }
+}
+
+// Forgot Style
+.forgot {
+  @include col-sm-5();
+}
+
+// Dashboard Style
+.dashboard {
+  min-height: 100vh;
+  background-color: $bg-secondary;
+  main {
+    .diagnosa {
+      @include bg();
+      border-radius: 0.5em;
+    }
+    .penyakit {
+      border-radius: 0.5em;
+      background-color: $bg-primary;
+      .card {
+        width: 8em;
+        height: auto;
+        border-radius: 0.5em;
+        img {
+          width: 100%;
+          height: 6em;
+        }
+        p {
+          padding: 0.5em;
+        }
+      }
+    }
+    .gejala,
+    .lainnya {
+      border-radius: 0.5em;
+    }
+  }
+}
+
+// Profil Style
+.profil {
+  min-height: 100vh;
+  background-color: $bg-secondary;
+  .card {
+    @include bg();
+    border-radius: 0.5em;
+    p {
+      color: $bg-primary;
+    }
+    img {
+      width: 7em;
+      background-color: $bg-secondary;
+      border-radius: 0.5em;
+    }
+  }
+}
+
+// Admin Style
+.admin {
+  min-height: 100vh;
+  background-color: $bg-secondary;
+  .navbar {
+    background-color: $bg-primary;
+    .navbar-text {
+      color: $text-primary;
+    }
+    .btn {
+      border-radius: 1em;
+      &:hover {
+        width: 7em;
+      }
+    }
+    .photo-profile {
+      img {
+        width: 2.2em;
+        height: 2.2em;
+        background-color: $primary-color;
+        border-radius: 100%;
+      }
+    }
+    .dropdown-menu {
+      margin-left: -7em;
+    }
+  }
+  .data {
+    height: 20em;
+    overflow: auto;
+  }
+  .card {
+    border: none;
+    background-color: $text-primary;
+    color: $bg-primary;
+    border-radius: 0.5em;
+    p {
+      color: inherit;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  //   Global Style
+  .btn-down {
+    display: none;
+  }
+  .navigations {
+    display: none;
+  }
+  main {
+    .navbar-brand {
+      img {
+        display: none;
+      }
+    }
+  }
+
+  // Home Style
+  .home {
+    .navbar {
+      .navbar-brand {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // Admin Style
+  .admin {
+    .navbar {
+      .navbar-brand {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  // Global Style
+  main {
+    margin-left: 0;
+    .navbar-brand {
+      img {
+        width: 2em;
+        height: 2em;
+        border-radius: 0.5em;
+        display: block;
+      }
+    }
+  }
+  .admin {
+    .navbar-brand {
+      img {
+        width: 2em;
+        height: 2em;
+        border-radius: 0.5em;
+        display: block;
+      }
+    }
+  }
+  .sidebar {
+    display: none;
+  }
+  .navigations {
+    display: flex;
+  }
+
+  // Home Style
+  .home {
+    .navbar {
+      .navbar-text {
+        display: none;
+      }
+      .navbar-brand {
+        img {
+          width: 2em;
+          height: 2em;
+          border-radius: 0.5em;
+          display: block;
+        }
+      }
+    }
+    .banner {
+      margin-top: -14%;
+    }
+  }
+
+  // About Style
+  .about {
+    .col-sm-6 {
+      .text {
+        background-color: $primary-color;
+        color: $bg-secondary;
+        border-radius: 1em;
+        p {
+          color: $bg-secondary;
+        }
+      }
+    }
+  }
+
+  // Panduan Style
+  .panduan {
+    .btn-down {
+      display: block;
+    }
+  }
+
+  // Dashboard Style
+  .dashboard {
+    main {
+      .penyakit {
+        padding: 0;
+        background-color: $bg-secondary;
+      }
+      .gejala {
+        height: 18em;
+        overflow: auto;
+      }
+    }
+  }
+}

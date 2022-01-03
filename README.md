@@ -37,6 +37,6 @@
   <li>Iconify sebagai icon</li>
   <li>Figma untuk mendesign UI/UX</li>
 </ul>
-<h5>Link Website : <a href="https://kodekuini.xyz/sikar/" target="_blank">Klik disini</a></h5>
+<h5>Link Website : <a href="https://kodekuini.xyz/sikar/" target="_blank">kodekuini.xyz/sikar</a></h5>
 <p>Dummy Account : <br>
   [username: superuser]<br>[password: superuser]</p>

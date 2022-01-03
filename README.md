@@ -16,7 +16,6 @@
   <li>CRUD Data Gejala</li>
   <li>CRUD Basis Pengetahuan</li>
   <li>CRUD Aturan</li>
-  <li>Diagnosa</li>
 </ul>
 <h5>Fitur - fitur user : </h5>
 <ul>

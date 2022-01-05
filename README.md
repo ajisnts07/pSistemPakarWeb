@@ -31,7 +31,6 @@
   <li>SASS untuk preprocessor CSS</li>
   <li>Bootstrap 5 sebagai CSS Framework</li>
   <li>MYSQL sebagai database</li>
-  <li>Aos.js untuk animasi</li>
   <li>Sweetalert 2 untuk alert</li>
   <li>Iconify sebagai icon</li>
   <li>Figma untuk mendesign UI/UX</li>
